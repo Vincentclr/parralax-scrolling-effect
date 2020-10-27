@@ -1,0 +1,70 @@
+body, html {
+  height: 100%;
+}
+
+.parallax1 {
+  background-image: url('img/parallax1.jpg');
+  height: 800px;
+  width: auto;
+  background-attachment: fixed;
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+
+.parallax1 h1 {
+  position: absolute;
+  margin: 160px 600px;
+  font-size:34px;
+  width: 100px;
+  font-family: 'Righteous', cursive;
+}
+
+.parallax1 h2 {
+  position: absolute;
+  margin: 300px 600px;
+  font-size:8px;
+  width: 140px;
+  font-family: 'Righteous', cursive;
+}
+
+.parallax2 {
+  background-image: url('img/parallax2.jpeg');
+  height: 800px;
+  width:auto;
+  background-attachment: fixed;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.7;
+}
+
+.text-parallax {
+  height:200px;
+  font-size:36px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  color: #DC99C9;
+}
+
+.parallax2 h1 {
+  position: absolute;
+  margin: 292px 200px;
+  font-size: 160;
+  width: 100px;
+  font-family: 'Righteous', cursive;
+  color: #DC99C9;
+}
+
+@media (width: 1012px) {
+  .parallax2 h1 {
+  position: fixed;
+  margin: 292px 200px;
+  font-size: 160;
+  width: 100px;
+  font-family: 'Righteous', cursive;
+  color: #DC99C9;
+}
+}
